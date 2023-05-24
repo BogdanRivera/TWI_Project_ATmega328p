@@ -1,0 +1,29 @@
+English: 
+Once the entire circuit is connected, the operation is carried out as follows:
+-The Real time clock will be reading every second for the display of the time (TWI Reading)
+- The USART was instructed to send which are:
+-H: Display the time (prints it in Hercules)
+-T: change the time
+For this case you must send seconds, minutes and hours respectively
+-I: Used to turn on the LED in the micro slave (you need to send ii or II to turn it on)
+-O: Used to turn off the led on the micro slave (you need to send oo or OO to turn it off)
+-The second microcontroller already acts as a slave by itself
+
+
+The code tried to make it as readable as possible.
+
+
+
+Español: 
+Una vez conectado todo el circuito, el funcionamiento se realiza de esta forma:
+-El reloj de tiempo Real estará leyéndose a cada segundo para la visualización de la hora (Lectura de la TWI)
+-Se utilizará la USART para mandar instrucciones las cuales son: 
+	-H: Visualizar la hora (la imprime en Hércules)
+	-T: cambiar la hora
+		Para este caso deberás enviar segundos, minutos y horas respectivamente
+	-I: Utilizada para poder encender el Led en el micro esclavo (necesitas mandar ii o II para que encienda)
+	-O: Utilizada para poder apagar el led en el micro esclavo (necesitas mandar oo u OO para que apague)
+-El segundo microcontrolador ya actúa como esclavo por si solo
+
+
+El código traté de que fuera lo más legible posible. 

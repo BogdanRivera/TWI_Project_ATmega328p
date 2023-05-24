@@ -1,0 +1,32 @@
+Instructions:
+The TWI_Master folder has the program that contains the master microcontroller, so you have to program it that way.
+The TWI_Slave folder contains the microcontroller slave program.
+
+The following components are required.
+-A real time clock RTC DS1307
+-Two microcontrollers
+-Serial communication via computer
+-One led (any color)
+-Resistance 220 Ohms
+-LCD screen
+
+Through the schematic you can be guided for the physical connections.
+
+
+
+Instrucciones: 
+La carpeta TWI_Master tiene el programa que contendrá el microcontrolador maestro, por lo que hay que programarlo de esa forma.
+La carpeta TWI_Slave contiene el programa esclavo del microcontrolador. 
+
+Se requieren de los siguientes componentes. 
+-Un reloj de tiempo real RTC DS1307
+-Dos microcontroladores
+-Comunicación serial a través de la computadora
+-Un led (cualquier color)
+-Resistencia 220 Ohms
+-Pantalla LCD
+
+A través del esquemático te puedes guíar para las conexiones físicas. 
+
+
+
